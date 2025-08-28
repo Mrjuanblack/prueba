@@ -88,6 +88,7 @@ Los dos objectivos anteriores son las tareas mínimas, pero se recomienda realiz
 - Agregar funcionalidades para poder actualizar Blogs y Comentarios. Para esto revisa como funciona los hooks en la carpeta `src\app\hooks`, los archivos contenidos ahí son lo que te permite comunicar el frontend con el backend.
 - Utilizar una librería para administrar las peticiones en el frontend, como [axios](https://www.npmjs.com/package/axios) o [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview). Recomendamos TanStack Query por sus funciones automáticas para refrescar información. Los cambios que hagas basados en esto deben ser dentro de la carpeta `src\app\hooks`.
 - Permitir responder comentarios. Ej: un usuario postea un primer comentario, este comentario puede ser seguido por otros de forma indefinida. Esto se debe reflejar tanto en la capa lógica como visualmente en la aplicación.
+- Implementar un diseño responsive para que la aplicación web sea visible de forma agradable en cualquier tipo de pantalla.
 
 ## Entregable
 Se debe entregar un archivo comprimido que contenga el proyecto. Para no enviar archivos pesados o que contengan configuraciones locales (a excepción del archivo `.env`) se debe comprimir el proyecto **SIN** las siguentes carpetas:
